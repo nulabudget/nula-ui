@@ -4,6 +4,20 @@
 
 Nula UI is an open-source react component library used by Nula Budget.
 
+## Getting started
+
+To install, just run:
+
+```
+npm i @nulabudget/nula-ui
+```
+
+or
+
+```
+yarn add @nulabudget/nula-ui
+```
+
 
 ## License
 
