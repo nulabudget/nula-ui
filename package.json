@@ -1,11 +1,13 @@
 {
   "name": "@nulabudget/nula-ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Reusable UI Components for Nula Budget",
   "source": "src/index.js",
   "main": "dist/main.js",
   "module": "dist/module.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/nulabudget/nula-ui"
