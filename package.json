@@ -1,6 +1,6 @@
 {
   "name": "@nulabudget/nula-ui",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Reusable UI Components for Nula Budget",
   "source": "src/index.js",
   "main": "dist/main.js",
