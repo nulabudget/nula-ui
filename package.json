@@ -6,6 +6,10 @@
   "main": "dist/main.js",
   "module": "dist/module.js",
   "files": ["dist"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nulabudget/nula-ui"
+  },
   "scripts": {
     "watch": "parcel watch",
     "build": "parcel build",
