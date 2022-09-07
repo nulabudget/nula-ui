@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import STYLES from "./Box.module.css"
+import styles from "./Box.module.scss"
 
 export default function Box({children}) {
   return (
-    <div className={STYLES.Box}>{children}</div>
+    <div className={styles.Box}>{children}</div>
   )
 }
 

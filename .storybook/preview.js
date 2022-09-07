@@ -1,4 +1,5 @@
 import "./index.css";
+import "../styles/index.scss";
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -8,4 +9,4 @@ export const parameters = {
       date: /Date$/,
     },
   },
-}
+};

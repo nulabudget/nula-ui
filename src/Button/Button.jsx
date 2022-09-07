@@ -1,22 +1,29 @@
 import React from "react";
-import classNames from "classnames";
+import cn from "classnames";
 import PropTypes from "prop-types";
 
-import STYLES from "./Button.module.css";
+import styles from "./Button.module.scss";
 
-export default function Button({ children, fluid = false, onClick, type = "submit"  }) {
-  const className = classNames(STYLES.Button, {
-    [STYLES.ButtonFluid]: fluid,
-  });
-
+export default function Button({
+  children,
+  fluid = false,
+  onClick,
+  type = "submit",
+}) {
   const handleClick = (e) => {
-    if(onClick) {
+    if (onClick) {
       onClick(e);
     }
-  }
+  };
+
+  console.log(styles);
 
   return (
-    <button className={className} onClick={handleClick} type={type}>
+    <button
+      className={cn(styles.Button, { [styles["Button--fluid"]]: fluid })}
+      onClick={handleClick}
+      type={type}
+    >
       {children}
     </button>
   );
